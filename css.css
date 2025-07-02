@@ -1,0 +1,94 @@
+:root{
+    --primary-color: #1f58a3;
+    --secondary-color: #f0f0f0;
+    --font-family: 'Poppins', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f0f0;
+    color: #1f58a3;
+}
+
+.header1 {
+    display: flex;
+    flex-flow: column nowrap;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    padding: 20px;
+    text-align: center;
+}
+
+.header_nav{
+    display: flex;
+}
+
+.nav_list{
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+}
+
+.nav_list > li{
+        border: 0 solid white;
+          padding: 5px;
+
+}
+.port{
+    border: 1px solid white;
+    background-color: white;
+    color: var(--primary-color);
+    padding: 5px;
+
+
+} 
+
+.technology {
+    display: flex;
+    flex-flow: column wrap; 
+    align-items: center;
+    height: 100vh;
+    margin-top: 10rem;
+    gap: 20px;
+   
+}
+
+
+.technology_list{
+    display: flex;
+    flex-flow: row wrap;
+    gap : 20px;
+    max-width: 50vw;
+    justify-content: center;
+    
+}
+
+.technology_item{
+    border: 1px solid rgb(189, 189, 223);
+    border-radius: 16px;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 50px;
+    width: 150px;
+    background: linear-gradient(to bottom, #ffffff, var(--primary-color));
+
+}
+
+.technology_item > img {
+    width: 50px;
+    height: 50px;
+}
+.technology_item > p {
+    text-align: center;
+    font-size: 16px;
+    color: rgb(243, 229, 229);
+    align-self: center;
+}
